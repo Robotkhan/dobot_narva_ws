@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: my_me6_pkg
+    relative_path: urdf/me6_robot.urdf
+  srdf:
+    relative_path: config/me6_robot.srdf
+  package_settings:
+    author_name: kanat
+    author_email: kanat@todo.com
+    generated_timestamp: 1768671893
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

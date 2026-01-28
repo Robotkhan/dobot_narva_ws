@@ -1,0 +1,6 @@
+build/
+install/
+log/
+src/DOBOT_6Axis_ROS2_V4/
+src/me6_real_robot
+src/me6_actions_pkg

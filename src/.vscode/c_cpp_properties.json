@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kanat/dobot_ws/install/dobot_msgs_v4/include/**",
+        "/media/kanat/MyDisk/Quest2ROS_ws/install/quest2ros2_interfaces/include/**",
+        "/home/kanat/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/kanat/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/kanat/custom_manipulator_ws/install/custom_interfaces/include/**",
+        "/home/kanat/ros2_udemy_beginner/install/my_interfaces/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/kanat/dobot_ws/src/DOBOT_6Axis_ROS2_V4/dobot_bringup_v4/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
